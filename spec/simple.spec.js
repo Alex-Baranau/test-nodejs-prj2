@@ -8,5 +8,5 @@ describe('some sample tests', function() {
     it('simple regexp', function() {
         expect("170273").toMatch(/^[0-9]+$/);
     });
-    
+
 });
