@@ -1,4 +1,5 @@
 var async = require('async');
+var fs = require('fs');
 
 exports.hello = function(name) {
     return "Hello " + name;
